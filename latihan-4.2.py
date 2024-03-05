@@ -5,7 +5,8 @@ def cek_digit_belakang(a, b, c):
         return False
 
 # Test-case
-input1, input2, input3 = map(int, input("Enter three numbers separated by space: ").split())
-
-output = cek_digit_belakang(input1, input2, input3)
-print("Output:", output)
+print(cek_digit_belakang(30, 20, 18))
+print(cek_digit_belakang(145, 5, 100))
+print(cek_digit_belakang(71, 187, 18))
+print(cek_digit_belakang(1024, 14, 94))
+print(cek_digit_belakang(53, 8900, 658))
