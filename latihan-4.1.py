@@ -9,6 +9,3 @@ def cek_angka():
     return False
 
 print(cek_angka())
-
-########################################################################################
-cek_angka = lambda a, b, c: True if a != b and a != c and b != c and (a + b == c or a + c == b or b + c == a) else False
